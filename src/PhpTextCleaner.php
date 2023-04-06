@@ -4,7 +4,7 @@ namespace Pforret\PhpTextCleaner;
 
 class PhpTextCleaner
 {
-    static function title(string $title): string
+    public static function title(string $title): string
     {
 
     }

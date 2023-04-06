@@ -7,10 +7,9 @@ use PHPUnit\Framework\TestCase;
 
 class DecoderTest extends TestCase
 {
-
     public function testUrlDecode()
     {
-        $this->assertEquals("áû",Decoder::UrlDecode("%E1%FB"));
+        $this->assertEquals('áû', Decoder::UrlDecode('%E1%FB'));
     }
 
     public function testUtf8Decode()
